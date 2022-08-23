@@ -9,6 +9,7 @@
 ```python
 import torch.autograd as autograd
 
+# 使用torch自带的工具检查梯度，仅在debug时开启此功能
 # 反向传播时，当梯度异常时报错
 # 如exp()算子求梯度异常，会报错"RuntimeError: Function ExpBackward"
 with autograd.detect_anomaly():
@@ -17,8 +18,7 @@ with autograd.detect_anomaly():
 ##### 2.2 其他原因
 + 学习率过大？？？
 
-##### 2.3 解决方法
-+ 使用gradient clip
+##### 2.3 解决方法1：使用gradient clip
 ```python
 from torch.nn.utils import clip_grad
 
