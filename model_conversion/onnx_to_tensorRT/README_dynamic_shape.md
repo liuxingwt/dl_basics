@@ -38,4 +38,21 @@ cd /workspace/TensorRT/downloads/TensorRT-7.1.3.4/bin/
 ```
 
 ## 2. 使用TensorRT
+(1) 在python代码中使用tensorrt
+```shell
+# 参考：https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-tar
+# Install the Python TensorRT wheel file
+cd TensorRT-${version}/python
+python3 -m pip install tensorrt-*-cp3x-none-linux_x86_64.whl
+# Install the Python graphsurgeon wheel file.
+cd TensorRT-${version}/graphsurgeon
+python3 -m pip install graphsurgeon-0.4.6-py2.py3-none-any.whl
+# Install the Python onnx-graphsurgeon wheel file.
+cd TensorRT-${version}/onnx_graphsurgeon
+python3 -m pip install onnx_graphsurgeon-0.3.12-py2.py3-none-any.whl
+```
+
+
+
+
 
