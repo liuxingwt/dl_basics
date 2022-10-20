@@ -44,3 +44,4 @@
 
 ### 参考资料：
 + 知乎：TensorRT中的int8量化是怎样进行的？[链接](https://www.zhihu.com/question/421743958/answer/2428148997)
++ TensorRT的engine模型的结构图 [链接](https://mp.weixin.qq.com/s?__biz=Mzg3ODU2MzY5MA==&mid=2247488759&idx=1&sn=254c8c288bf3b87b80c47593d6e3b740&chksm=cf108cf2f86705e44616970ac9f4d2644c12f8063492906d9f0827913c6b1e71581f139f0322&token=1900338963&lang=zh_CN#rd)
