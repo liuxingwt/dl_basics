@@ -10,6 +10,8 @@
 + NVIDIA官方在2017GTC大会上首次提出：[PPT](https://on-demand.gputechconf.com/gtc/2017/presentation/s7310-8-bit-inference-with-tensorrt.pdf)
 + NVIDIA官方INT8量化文档：[document](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#working-with-int8)
 + NVIDIA官方代码+示例samples：[code](https://github.com/NVIDIA/TensorRT/tree/master/samples)
++ NVIDIA官方在2022春季GTC大会演讲：[PPT](https://www.nvidia.com/en-us/on-demand/session/gtcspring22-s41440/)
+
 ```shell
 # 方式一：在onnx转TensorRT时，使用trtexec工具量化
 ./trtexec --int8 --calib=<file>
