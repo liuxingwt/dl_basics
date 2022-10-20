@@ -10,7 +10,7 @@ cd TensorRT
 git submodule update --init --recursive
 export TRT_SOURCE=`pwd`
 
-（2）下载并解压TensorRT GA：.tar包的方式）
+（2）下载并解压TensorRT GA（tar包的方式）
 # 其他方法：使用.deb包的方式参考https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-debian
 # 下载安装地址：https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#downloading
 # 依据ubuntu和cuda的版本下载对应的tensorRT版本
