@@ -1,7 +1,8 @@
 ## 量化工具介绍
 #### 1.量化基础概念
-（1）两种方式：**QAT**是Quantization Aware Training的简称，**PTQ**是Post Training Quantization的简称。  
-（2）
+（1）两种量化方式
++ **QAT**：是Quantization Aware Training的简称；  
++ **PTQ**：是Post Training Quantization的简称。
 
 
 #### 2.1TensorRT原生的INT8量化
