@@ -37,11 +37,8 @@ cd /workspace/TensorRT/downloads/TensorRT-7.1.3.4/bin/
 ./trtexec --help
 # 备注：如果报错./trtexec: error while loading shared libraries: libnvcaffeparser.so.7: cannot open shared object file: No such file or directory
 # 解决：export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/workspace/TensorRT/downloads/TensorRT-7.1.3.4/lib
-```
 
-### 2. 跑通TensorRT提供的sample
-(1) 在python代码中使用tensorrt
-```shell
+（6）其他工具（Optional）：如在python中调用TensorRT
 # 参考：https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-tar
 # Install the Python TensorRT wheel file
 cd TensorRT-${version}/python
@@ -52,6 +49,12 @@ python3 -m pip install graphsurgeon-0.4.6-py2.py3-none-any.whl
 # Install the Python onnx-graphsurgeon wheel file.
 cd TensorRT-${version}/onnx_graphsurgeon
 python3 -m pip install onnx_graphsurgeon-0.3.12-py2.py3-none-any.whl
+```
+
+### 2. 跑通TensorRT提供的sample
+(1) 在python代码中使用tensorrt
+```shell
+
 ```
 
 
