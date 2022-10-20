@@ -1,6 +1,6 @@
 ## 量化工具介绍
 #### 1.量化基础概念
-（1）QAT和PTQ量化方式介绍：前者是Quantization Aware Training的简称，后者是Post Training Quantization的简称；
+（1）两种方式：**QAT**是Quantization Aware Training的简称，**PTQ**是Post Training Quantization的简称。  
 （2）
 
 
