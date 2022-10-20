@@ -1,4 +1,6 @@
-## 1. TensorRT OSS + 环境 + TensorRT GA
+## TensorRT模型INT8量化
+
+### 1. 构建：TensorRT OSS + 基础环境 + TensorRT GA
 + 指定环境：Ubuntu18.04，Cuda10.2，Cudnn8.1，TensorRT7.1.3.4
 ```shell
 （1）下载TensorRT OSS
@@ -37,7 +39,7 @@ cd /workspace/TensorRT/downloads/TensorRT-7.1.3.4/bin/
 # 解决：export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/workspace/TensorRT/downloads/TensorRT-7.1.3.4/lib
 ```
 
-## 2. 使用TensorRT
+### 2. 跑通TensorRT提供的sample
 (1) 在python代码中使用tensorrt
 ```shell
 # 参考：https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-tar
