@@ -6,13 +6,12 @@
 
 #### 1.TensorRT原生的INT8量化
 + 属于PTQ的方式；
-+ NVIDIA官方，[PPT](https://on-demand.gputechconf.com/gtc/2017/presentation/s7310-8-bit-inference-with-tensorrt.pdf)；
-+ NVIDIA官方INT8量化文档，[document](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#working-with-int8);
-+ NVIDIA官方代码+示例samples，[code]()https://github.com/NVIDIA/TensorRT/tree/master/samples
-
++ NVIDIA官方在2017GTC大会上首次提出：[PPT](https://on-demand.gputechconf.com/gtc/2017/presentation/s7310-8-bit-inference-with-tensorrt.pdf)
++ NVIDIA官方INT8量化文档：[document](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#working-with-int8)
++ NVIDIA官方代码+示例samples：[code](https://github.com/NVIDIA/TensorRT/tree/master/samples)
 #### 1.2 TensorRT提供的pytorch-quantization工具
-+ NVIDIA官方代码在TensorRT项目下的tool，[code](https://github.com/NVIDIA/TensorRT/tree/master/tools/pytorch-quantization);
-+ 使用文档：[document](https://docs.nvidia.com/deeplearning/tensorrt/pytorch-quantization-toolkit/docs/userguide.html)
++ NVIDIA官方使用文档：[document](https://docs.nvidia.com/deeplearning/tensorrt/pytorch-quantization-toolkit/docs/userguide.html)
++ NVIDIA官方代码在TensorRT项目下的tool：[code](https://github.com/NVIDIA/TensorRT/tree/master/tools/pytorch-quantization)
 
 
 #### 2.1 Pytorch官方提供的量化工具
@@ -23,5 +22,5 @@
 
 #### 2.2 Torch-TensorRT工具
 + 2021年12月，由Nvidia和Meta共同提出；
++ Pytorch官方介绍文档：[document](https://pytorch.org/TensorRT/)
 + 项目github代码：[code](https://github.com/pytorch/TensorRT)
-+ Pytorch官方文档：[document](https://pytorch.org/TensorRT/)
