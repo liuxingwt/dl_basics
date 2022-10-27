@@ -51,10 +51,14 @@ cd TensorRT-${version}/onnx_graphsurgeon
 python3 -m pip install onnx_graphsurgeon-0.3.12-py2.py3-none-any.whl
 ```
 
-### 2. 跑通TensorRT提供的sample
-(1) 在python代码中使用tensorrt
+### 2. 跑通tensorrt_demo的实力
+(1) 运行demo5
 ```shell
-
+# 跑第3步时会报错:NvInfer.h: No such file or directory
+$ cd ${HOME}/project/tensorrt_demos/plugins
+$ make
+# 解决方法：找到TensorRT GA中的这个文件，然后在plugins/MakeFile中修改对应的路径。
+find -name NvInfer.h
 ```
 
 
