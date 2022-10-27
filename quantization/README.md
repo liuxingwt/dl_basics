@@ -1,12 +1,12 @@
 ## TensorRT模型INT8量化
 
 ### 1. 构建：TensorRT OSS + 基础环境 + TensorRT GA
-+ 指定环境：Ubuntu18.04，Cuda10.2，Cudnn8.1，TensorRT7.1.3.4
++ 指定环境：Ubuntu18.04，Cuda10.2，Cudnn8.1，TensorRT7.1.3.4 
 ```shell
 （1）下载TensorRT OSS
 # 使用和TensorRT版本对应的TensorRT OSS分支
-git clone -b 7.1.3 https://github.com/NVIDIA/TensorRT.git
-cd TensorRT
+git clone -b 7.1.3 https://github.com/NVIDIA/TensorRT.git TensorRT_OSS
+cd TensorRT_OSS
 git submodule update --init --recursive
 export TRT_SOURCE=`pwd`
 
